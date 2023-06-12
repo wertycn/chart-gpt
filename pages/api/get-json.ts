@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 
-const OPENAI_API_URL = 'https://api.openai.withlogging.com/v1/completions';
+const OPENAI_API_URL = 'https://api.openai.com/v1/completions';
 
 export default async function handler(
   req: NextApiRequest,
